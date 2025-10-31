@@ -15,18 +15,18 @@ It manages property listings, agents, buyers, and commissions efficiently using 
 ---
 
 ### 📂 Project Structure
-RealEstateManagementSystem/
-│
-├── real_estate_backend/
-│ └── main.py
-│
-├── real_estate_database/
-│ ├── real_estate_db.sql
-│ ├── real_estate_plsql.sql
-│ ├── real_estate_commission_trigger.sql
-│ └── test_oracle_connection.py
-│
-└── README.md
+- RealEstateManagementSystem/
+- │
+- ├── real_estate_backend/
+- │ └── main.py
+- │
+- ├── real_estate_database/
+- │ ├── real_estate_db.sql
+- │ ├── real_estate_plsql.sql
+- │ ├── real_estate_commission_trigger.sql
+- │ └── test_oracle_connection.py
+- │
+- └── README.md
 
 
 ---
