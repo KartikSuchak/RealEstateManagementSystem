@@ -18,15 +18,27 @@ It manages property listings, agents, buyers, and commissions efficiently using 
 - RealEstateManagementSystem/
 - │
 - ├── real_estate_backend/
-- │ └── main.py
+- │   ├── __pycache__/
+- │   ├── database.py
+- │   ├── main.py                              
 - │
 - ├── real_estate_database/
-- │ ├── real_estate_db.sql
-- │ ├── real_estate_plsql.sql
-- │ ├── real_estate_commission_trigger.sql
-- │ └── test_oracle_connection.py
+- │   └── real_estate_db.sql       
+- │
+- ├── real_estate_frontend/
+- │   ├── src/
+- │   │   ├── App.js                  
+- │   │   ├── pages/
+- │   │   │   ├── ManageUsers.js
+- │   │   │   ├── Agents.js
+- │   │   │   ├── Properties.js
+- │   │   │   ├── PLSQLFeatures.js
+- │   │   ├── index.js
+- │   │   └── ...
+- │   └── package.json
 - │
 - └── README.md
+
 
 
 ---
